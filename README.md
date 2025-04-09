@@ -1,5 +1,4 @@
-# wildfire-spread-prediction
-# EcoFlare: Real-Time Wildfire Monitoring & Prediction System
+# EcoFlare: Real-Time Wildfire Monitoring & Spread Prediction System
 
 **EcoFlare** is an end-to-end, full-stack wildfire monitoring and prediction platform that leverages geospatial deep learning, real-time data streaming, and scalable analytics to provide actionable insights into fire-prone zones and active wildfire spread.
 
