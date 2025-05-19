@@ -1,0 +1,60 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  background: url("../assets/wildfire-bg.jpg") no-repeat center center/cover;
+}
+
+.about-content {
+  position: relative;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Dark Overlay only around text */
+.overlay {
+  background: rgba(0, 0, 0, 0.7); /* Dark but transparent */
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* Hover Effect */
+.about-content:hover {
+  transform: scale(1.05); /* Smooth scaling effect */
+}
+
+/* Heading */
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Highlighted Statistic */
+.highlight-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffcc00; /* Eye-catching color */
+  margin-bottom: 15px;
+}
+
+/* Call-to-Action */
+.cta-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff4444; /* Urgent red */
+  margin-top: 15px;
+}

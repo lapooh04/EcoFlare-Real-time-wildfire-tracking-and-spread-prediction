@@ -1,0 +1,53 @@
+.features-section {
+  position: relative;
+  padding: 80px 10%;
+  background: url('/path/to/background.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.features-content {
+  position: relative;
+  z-index: 2;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1;
+  max-width: 320px;
+  text-align: center;
+}
+
+.feature-box {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+  transform: scale(1.05); /* Subtle hover effect */
+}
+
+.feature-icon {
+  font-size: 50px;
+  color: #ff5733; /* Adjust the color to fit your theme */
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
